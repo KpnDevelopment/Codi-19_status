@@ -4,6 +4,7 @@ import Gsummary from "./Componets/globalSummary/Gsummary";
 import AllCountry from "./Componets/allCountriesStatus/AllCountry";
 import India from "./Componets/india/India";
 import './App.css'
+import Footers from "./Componets/navbar/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
       {/* <India />
       <AllCountry /> */}
+      <Footers />
     </div>
   );
 }

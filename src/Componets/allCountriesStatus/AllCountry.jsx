@@ -3,6 +3,7 @@ import axios from "axios";
 import "./AllCountry.css";
 import { totalSummaryUrl } from "../../utils/url";
 import {
+  Badge,
   Card,
   CardDeck,
   CardGroup,
@@ -38,7 +39,8 @@ function AllCountry() {
           textTransform: "capitalize",
           height: "4rem",
           fontSize: "1.5rem",
-          cursor: "cell",
+          borderRadius: "25px",
+          textAlign: "center",
         }}
         type="text"
         placeholder="Search"
@@ -55,8 +57,16 @@ function AllCountry() {
                   className="acCard"
                   style={{ width: "30rem", margin: "1rem" }}
                 >
-                  <h6>{index + 1}</h6>
-                  <h4>{data.Country}</h4>
+                  {/* <h6>{index + 1}</h6> */}
+                  <h4 style={{ fontWeight: "800" }}>
+                    {data.Country}{" "}
+                    <Badge
+                      style={{ borderRadius: "10px", marginBottom: "5px" }}
+                      variant="warning"
+                    >
+                      {data.CountryCode}
+                    </Badge>
+                  </h4>
                   <h4>Recoverd : {data.TotalRecovered}</h4>
                   <h4>Total : {data.TotalConfirmed}</h4>
                   <h4>Deaths : {data.TotalDeaths}</h4>

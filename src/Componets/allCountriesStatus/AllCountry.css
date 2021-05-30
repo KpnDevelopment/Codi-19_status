@@ -14,5 +14,20 @@
 h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 24px !important;
+}
+@media (max-width: 700px) {
+  .acCard {
+    width: 21rem !important;
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 450px) {
+  .acCard {
+    width: 38rem !important;
+    font-size: 10px !important;
+  }
+  .AllCountry {
+    margin: 2px !important;
+  }
 }

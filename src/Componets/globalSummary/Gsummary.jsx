@@ -41,14 +41,15 @@ function Gsummary() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ height: "50rem" }}
-            src={cbg12}
+            style={{ height: "100vh" }}
+            src={cbg7}
             alt="First slide"
           />
           <Carousel.Caption
+            className="CarouselCaption"
             style={{ letterSpacing: "2px", textAlign: "center" }}
           >
-            <h1>Global</h1>
+            <h2 className="bigsizeh1">Global Status</h2>
             {/* <h3>TotalRecovered : {summary.TotalRecovered}</h3>
             <h3>NewRecovered : {summary.NewRecovered}</h3>
             <h3>TotalConfirmed :{summary.TotalConfirmed}</h3>
@@ -57,6 +58,7 @@ function Gsummary() {
             <h3>NewDeaths: {summary.NewDeaths}</h3>
             <h3>{summary.Date}</h3> */}
             <Row
+              className="row"
               style={{
                 textTransform: "capitalize",
                 margin: "2rem",
@@ -64,6 +66,7 @@ function Gsummary() {
               }}
             >
               <div
+                className="circlestaus"
                 style={{
                   width: "250px",
                   height: "250px",
@@ -72,20 +75,15 @@ function Gsummary() {
                 }}
               >
                 <CircularProgressbarWithChildren value={66}>
-                  {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-                  <img
-                    style={{ width: 60, marginTop: -5 }}
-                    src="https://i.imgur.com/b9NyUGm.png"
-                    alt="doge"
-                  />
                   <div style={{ fontSize: 25, marginTop: -5 }}>
                     <strong>{summary.TotalRecovered}</strong>
                   </div>
                 </CircularProgressbarWithChildren>
-                <h4>TotalRecovered </h4>;
+                <h4>TotalRecovered </h4>
               </div>
 
               <div
+                className="circlestaus"
                 style={{
                   width: "250px",
                   height: "250px",
@@ -94,20 +92,15 @@ function Gsummary() {
                 }}
               >
                 <CircularProgressbarWithChildren value={45}>
-                  {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-                  <img
-                    style={{ width: 60, marginTop: -5 }}
-                    src="https://i.imgur.com/b9NyUGm.png"
-                    alt="doge"
-                  />
                   <div style={{ fontSize: 25, marginTop: -5 }}>
                     <strong>{summary.NewRecovered}</strong>
                   </div>
                 </CircularProgressbarWithChildren>
-                <h4>NewRecovered </h4>;
+                <h4>NewRecovered </h4>
               </div>
 
               <div
+                className="circlestaus"
                 style={{
                   width: "250px",
                   height: "250px",
@@ -116,20 +109,15 @@ function Gsummary() {
                 }}
               >
                 <CircularProgressbarWithChildren value={69}>
-                  {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-                  <img
-                    style={{ width: 60, marginTop: -5 }}
-                    src="https://i.imgur.com/b9NyUGm.png"
-                    alt="doge"
-                  />
                   <div style={{ fontSize: 25, marginTop: -5 }}>
                     <strong>{summary.TotalConfirmed}</strong>
                   </div>
                 </CircularProgressbarWithChildren>
-                <h4>TotalConfirmed </h4>;
+                <h4>TotalConfirmed </h4>
               </div>
 
               <div
+                className="circlestaus"
                 style={{
                   width: "250px",
                   height: "250px",
@@ -139,11 +127,11 @@ function Gsummary() {
               >
                 <CircularProgressbarWithChildren value={35}>
                   {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-                  <img
+                  {/* <img
                     style={{ width: 60, marginTop: -5 }}
                     src="https://i.imgur.com/b9NyUGm.png"
                     alt="doge"
-                  />
+                  /> */}
                   <div style={{ fontSize: 25, marginTop: -5 }}>
                     <strong>{summary.NewConfirmed}</strong>
                   </div>
@@ -152,6 +140,7 @@ function Gsummary() {
               </div>
 
               <div
+                className="circlestaus"
                 style={{
                   width: "250px",
                   height: "250px",
@@ -160,12 +149,6 @@ function Gsummary() {
                 }}
               >
                 <CircularProgressbarWithChildren value={36}>
-                  {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-                  <img
-                    style={{ width: 60, marginTop: -5 }}
-                    src="https://i.imgur.com/b9NyUGm.png"
-                    alt="doge"
-                  />
                   <div style={{ fontSize: 25, marginTop: -5 }}>
                     <strong>{summary.TotalDeaths}</strong>
                   </div>
@@ -174,6 +157,7 @@ function Gsummary() {
               </div>
 
               <div
+                className="circlestaus"
                 style={{
                   width: "250px",
                   height: "250px",
@@ -182,24 +166,19 @@ function Gsummary() {
                 }}
               >
                 <CircularProgressbarWithChildren value={20}>
-                  {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-                  <img
-                    style={{ width: 60, marginTop: -5 }}
-                    src="https://i.imgur.com/b9NyUGm.png"
-                    alt="doge"
-                  />
                   <div style={{ fontSize: 25, marginTop: -5 }}>
                     <strong>{summary.NewDeaths}</strong>
                   </div>
                 </CircularProgressbarWithChildren>
                 <h4>NewDeaths </h4>;
               </div>
+              <h3 className="smallsizeh1">Global Status</h3>
             </Row>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "50rem" }}
+            style={{ height: "100vh" }}
             className="d-block w-100"
             src={cbg8}
             alt="Second slide"
