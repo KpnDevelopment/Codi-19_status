@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Codi-19_status/static/css/main.d9956adb.chunk.css",
+    "main.js": "/Codi-19_status/static/js/main.e36f3ac1.chunk.js",
+    "main.js.map": "/Codi-19_status/static/js/main.e36f3ac1.chunk.js.map",
+    "runtime-main.js": "/Codi-19_status/static/js/runtime-main.3193400b.js",
+    "runtime-main.js.map": "/Codi-19_status/static/js/runtime-main.3193400b.js.map",
+    "static/css/2.e8ae1d07.chunk.css": "/Codi-19_status/static/css/2.e8ae1d07.chunk.css",
+    "static/js/2.d88b13a3.chunk.js": "/Codi-19_status/static/js/2.d88b13a3.chunk.js",
+    "static/js/2.d88b13a3.chunk.js.map": "/Codi-19_status/static/js/2.d88b13a3.chunk.js.map",
+    "static/js/3.9d4acacc.chunk.js": "/Codi-19_status/static/js/3.9d4acacc.chunk.js",
+    "static/js/3.9d4acacc.chunk.js.map": "/Codi-19_status/static/js/3.9d4acacc.chunk.js.map",
+    "index.html": "/Codi-19_status/index.html",
+    "static/css/2.e8ae1d07.chunk.css.map": "/Codi-19_status/static/css/2.e8ae1d07.chunk.css.map",
+    "static/css/main.d9956adb.chunk.css.map": "/Codi-19_status/static/css/main.d9956adb.chunk.css.map",
+    "static/js/2.d88b13a3.chunk.js.LICENSE.txt": "/Codi-19_status/static/js/2.d88b13a3.chunk.js.LICENSE.txt",
+    "static/media/caroselbg7.6a358d01.jpg": "/Codi-19_status/static/media/caroselbg7.6a358d01.jpg",
+    "static/media/caroselbg8.404332f8.jpg": "/Codi-19_status/static/media/caroselbg8.404332f8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3193400b.js",
+    "static/css/2.e8ae1d07.chunk.css",
+    "static/js/2.d88b13a3.chunk.js",
+    "static/css/main.d9956adb.chunk.css",
+    "static/js/main.e36f3ac1.chunk.js"
+  ]
+}
